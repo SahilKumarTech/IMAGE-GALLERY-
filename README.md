@@ -1,4 +1,6 @@
-**#🌍 WanderFrame - Image Gallery**
+Image Gallery-
+
+ **#🌍 WanderFrame - Image Gallery**
 
 WanderFrame is a responsive and user-friendly image gallery that works smoothly on any device. This project is designed for photography lovers who want to showcase their memories in a beautiful and organized gallery.
 
