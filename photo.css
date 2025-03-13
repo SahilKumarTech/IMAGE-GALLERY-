@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #232526, #414345, #616161);
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 20px;
+    border-radius: 4px;
+    margin: 0 10px; /* Adds space between menu items */
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+  
+
+
+
+
+
+
+.gallery * {
+    font-family: Nunito, sans-serif;
+}
+
+.gallery .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery img {
+    object-fit: cover;
+}
+
+.gallery .text-blk {
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #f0e8e8;
+    max-width: 1030px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.gallery .text-blk.headingText {
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: 1000;
+    color: #8787ca;
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    transition: color 0.3s ease, font-weight 0.3s ease, transform 0.3s ease;
+}
+
+.gallery .text-blk.headingText:hover {
+    color: #5a5aa5; /* Darker color on hover */
+    font-weight: 1000; /* Make it bolder */
+    transform: scale(0.95); /* Slightly shrink */
+}
+
+
+.gallery .text-blk.name:hover {
+    color: #d97a0b; /* Change text color on hover */
+    letter-spacing: 2px; /* Increase spacing for effect */
+}
+
+
+.album .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+}
+
+.album .responsive-container-block.bg {
+    max-width: 1320px;
+    margin: 0 0 0 0;
+    justify-content: space-between;
+}
+
+.album .img {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.album #i9rb {
+    color: black;
+}
+
+.album #ir6i {
+    color: black;
+}
+
+.album #ikz3b {
+    color: black;
+}
+
+.album .responsive-container-block.img-cont {
+    flex-direction: column;
+    max-width: 33.3%;
+    min-height: auto;
+    margin: 0 0 0 0;
+    height: 100%;
+}
+
+.album #ipix {
+    color: black;
+}
+
+.album #ipzoh {
+    color: black;
+}
+
+.album #ig5q8 {
+    color: black;
+}
+
+.album #imtzl {
+    color: black;
+}
+
+.album #i53es {
+    color: black;
+}
+
+.album .img.img-big {
+    height: 50%;
+    margin: 0 0 16px 0;
+}
+
+@media (max-width: 1024px) {
+    .album .img {
+        margin: 0 0 18px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .album .img {
+        max-width: 32.5%;
+        margin: 0 0 0 0;
+    }
+
+    .album .responsive-container-block.bg {
+        flex-direction: column;
+    }
+
+    .album .responsive-container-block.img-cont {
+        max-width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .album .img.img-big {
+        max-width: 49%;
+        margin: 0 0 0 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .album .img {
+        max-width: 94%;
+        margin: 0 0 25px 0;
+    }
+
+    .album .responsive-container-block.img-cont {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .album .img.img-big {
+        max-width: 94%;
+        margin: 0 0 25px 0;
+    }
+
+    .album .img.img-last {
+        margin: 0 0 5px 0;
+    }
+}
+
+
+.custom-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+   
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 0px 15px rgba(0, 91, 187, 0.7); /* Blue glow effect */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.custom-button {
+    display: block; /* Button ko block element banane ke liye */
+    margin: 20px auto; /* Auto margin se horizontally center */
+    text-align: center; /* Text ko center align */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 10vh; /* Poore page ki height le */
+}
+
+.button-link {
+    text-decoration: none; /* Removes underline */
+}
+
+
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    padding: 10px 0; /* Reduced padding to decrease height */
+    bottom: 0;
+    width: 100%;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer nav {
+    
+    padding: 10px 0; /* Reduced padding to decrease height */
+}
+.footer nav a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+    margin: 0 10px; /* Adjusted margin for better spacing */
+}
+.footer nav a:hover {
+    color: #fff;
+}
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+
+.marquee p {
+    display: inline-block;
+    animation: marquee-scroll 10s linear infinite;
+}
+
+
+@keyframes marquee-scroll {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
